@@ -6,8 +6,8 @@ import (
 	"io"
 	"sync/atomic"
 
-	"github.com/pion/logging"
-	"github.com/pion/sctp"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/sctp"
 )
 
 const receiveMTU = 8192
